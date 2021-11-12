@@ -1,10 +1,25 @@
 {
     "name": "system-time-updater",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "keywords": [
+        "time",
+        "date",
+        "system",
+        "timestamp",
+        "update"
+    ],
+    "bugs": {
+        "url": "https://github.com/composer404/system-time-updater/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/composer404/system-time-updater"
+    },
     "scripts": {
-        "build": "npx tsc"
+        "build": "npx tsc",
+        "clean": "rm -rf node_modules && rm package-lock.json && npm i"
     },
     "devDependencies": {
         "@types/node": "^14",
