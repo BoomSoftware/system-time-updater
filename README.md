@@ -1,6 +1,6 @@
 # system-time-updater
 
-Updates system time using a given timestamp. W zależności od platformy wymaga odpowiednich uprawnień.
+Updates system time using a given timestamp. Depending on the platform, it requires appropriate permissions. Both timestamps with and without milliseconds are valid.
 
 <br>
 
